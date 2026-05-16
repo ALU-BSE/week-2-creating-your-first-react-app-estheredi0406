@@ -1,0 +1,25 @@
+﻿.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 24px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 24px;
+}
+
+.counter button {
+  padding: 8px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid navy;
+  border-radius: 6px;
+  background-color: lightblue;
+  color: navy;
+}
